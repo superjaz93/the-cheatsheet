@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chtm/css cheetsheet so far </title>
+    <link rel="stylesheet" href="./resources/css/styles.css">
+</head>
+<body>
+    <!-- nav bar / banner if you want to call it that -->
+
+    <div class="container">
+        <nav class="navbar" class="">
+            <ul>
+                <li><a href="#divs">divs</a></li>
+                <li><a href="#positions">positions</a></li>
+                <li><a href="#colors">colors</a></li>
+                <li><a href="#tabbles">tabbles</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- the headder duhh ( code fall image with tax overlay)-->
+
+    <div id="header">
+        <h1>The Cheet Sheet.</h1>
+        <h2> Where we've been and where we are now !</h2>
+        <P>Here you will find a small collection of documentations of declorations and samatics, in which is to be used as a refernce.</P>
+    </div>
+
+    <!-- the sheets in which to be cheated from -->
+    <!--       the first sheet  "html divs"-->
+    <div class="section" id="divs" >
+        <h2>Html divs</h2>
+        <div class="container">
+            <span class="terminal">
+                &lt;div&gt;&lt; /div&gt; <div class="typer"></div>
+            </span>
+        </div>
+
+        <p>Divs, an html tag that allows you divide your web page into moltiple blocks or sections. in between dive tags you can add all sorts of html tags such as paragraphs and headders as well as add css selectors to call on thos divs from a css style sheet or you can turn them in top shaps and obects on our page whith thos selectors ! </p>
+
+        <div class="container" >
+            <span class="terminal"> &lt;div&gt;  
+            <pre class="space" >    &lt;p&gt; im a paragraph in a div &lt; /p&gt;</pre>
+            &lt; /div&gt; <div class="typer"></div></span>
+        </div>
+
+    </div>
+
+    <!-- the scond sheet "css positions"-->
+
+    <div class="section" id="positions">
+
+        <h2>CSS position propperty</h2>
+        <div class="container">
+            <span class="terminal">
+              <pre class="space">.position{</pre>
+              <pre class="space">position: <div class="typer"></div>;</pre> 
+            <pre class="space">}</pre>
+            </span>
+        </div>
+
+        <p>the above example would position an element ten pixles from the top and twenty pixles from the left of it's original positionon the web page </p>
+        <p>the css position property is used to set the position of html items in specific locations on the page/ screen. it is paired with values that dictate how the positioning works.</p>
+        <p>the diferant values are static relitive absolute sticky and fixed. below is a table with a breef description of each atrabute</p>
+
+        <div class="container" >
+            <span class="terminal">
+                <pre class="space">.position0{</pre>
+                    <pre class="space">position: static;</pre>
+                  <pre class="space">}</pre>
+ 
+                  <br>
+
+                <pre class="space">.position1{</pre>
+                <pre class="space">position: relitive;</pre>
+                <pre class="space">top:10px;</pre> 
+                <pre class="space">left:20px;</pre> 
+              <pre class="space">}</pre>
+              <br>
+              <pre class="space">.position2{</pre>
+                <pre class="space">position: absolute;</pre>
+                <pre class="space">top:10px;</pre> 
+                <pre class="space">left:20px;</pre> 
+              <pre class="space">}</pre>
+              <br>
+              <pre class="space">.position3{</pre>
+                <pre class="space">position: sticky;</pre>
+                <pre class="space">top:10px;</pre> 
+                <pre class="space">left:20px;</pre> 
+              <pre class="space">}</pre>
+              <br>
+              <pre class="space">.position4{</pre>
+                <pre class="space">position: fixed;</pre>
+                <pre class="space">top:10px;</pre> 
+                <pre class="space">left:20px;</pre> 
+              <pre class="space">} <div class="typer"></div></pre>
+              </span>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Propperty</th>
+                    <th>value</th>
+                    <th>What it does</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="mono">.position</td>
+                    <td class="mono">static</td>
+                    <td>STatic is the basic location od an element and does not take position instructions  </td>
+                </tr>
+                <tr>
+                    <td class="mono">.position</td>
+                    <td class="mono">relitive</td>
+                    <td>the relative value will set an html element bassed off of the original static location of that element</td>
+                </tr>
+                <tr>
+                    <td class="mono">.position</td>
+                    <td class="mono">absolute</td>
+                    <td> Setting an element to absolute will allow it to ignore sibling elements and possiont relative to it closset parent with a relative or absolute value </td>
+                </tr>
+                <tr>
+                    <td class="mono">.position</td>
+                    <td class="mono">sticky</td>
+                    <td>When a value of sticky is set for the position of and element it stay with the normal flow of a page untill specified point is hit and then it will be removed from the flow of the page and remain in that spot on the screen.</td>
+                </tr>
+                <tr>
+                    <td class="mono">.position</td>
+                    <td class="mono">fixed</td>
+                    <td>when an elamant is set to the fixed value it will stay in that location of the screen</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+
+    <!-- the third sheet "css colors"-->
+
+    <div class="section" id="colors">
+
+        <h2>Colors in css</h2>
+        <div class="container">
+            <span class="terminal">
+            <pre class="space">.colors{</pre>
+            <pre class="space">color: ;</pre>
+            <pre class="space">background-color: <div class="typer"></div>;</pre>        
+                
+            </span>
+        </div>
+
+        <p>There are two topics when it comes to colore in css. what you can color and how you chose to color it .</p>
+        <h3>What you choose to color</h3>
+        <ul>
+            <li>
+                <p>you can color the forground of an element  by using <span class="miniterm" class="space">color: blue;</span> this will colore the elemnt it self blue usually text .</p>
+            </li>
+            <li>
+                <p> ther is also <span class="miniterm" class="space">background-color: hsla(134, 100%, 50%, 0.5  );</span> which will change the area in which the block of an element takes up to green</p>
+            </li>
+        </ul>
+        <h3>How you choose to color it.</h3>
+        <p>when picking the color of an element there are a few wasy to select your color of choice, named/keyword colors, hex colors , rbg ,and hsl, each with diferant addvanteges</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Color Type</th>
+                    <th class="mono">Syntax</th>
+                    <th>description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Color Name Keywords</td>
+                    <td class="mono">color: aqua;</td>
+                    <td> keyward/named colors are the most basic and limited, with just over 140 named colors theres aren't many options aside from that there is no option to set an alpha value (opacity) as there is with with the latter options </td>
+                </tr>
+                <tr>
+                    <td>CSS Hexadecimal </td>
+                    <td class="mono">color: #ff0000;</td>
+                    <td>hex is one of the more commen methods of color selection, there are three number pairs with two numbers each. hex numbers rang from 0-9 and A-G making a 16 digit rang where a-g represent 10-16. a fourth pair can be added as an alpha vale at the end</td>
+                </tr>
+                <tr>
+                    <td>CSS HSL(hue ,saturation ,light) </td>
+                    <td class="mono">color: hsl(200, 70%, 50%)</td>
+                    <td> hsl stand for hue saturation and light. if yuo would like to add opacity it would be hsla where the a stand for alpha value. hue can be represented with a number from 0-360, then you can set hte saturation from 0% to 100%, and then the lightness of the color in the same as saturation. opacity is 0-1(0.2).</td>
+                </tr>
+                <tr>
+                    <td>CSS rgb(red ,blue ,green) </td>
+                    <td class="mono">color: rgb(249, 2, 171);</td>
+                    <td>RGB stand for red blue green, each color is represented with a nmber from 0-255 a fourth number set from 0-1 can be added as an alpha value for opacity.</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="container" >
+            <span class="terminal">
+                
+                    <pre class="space">.colors{</pre>
+                    <pre class="space">color: hsla( 134, 100%, 50%, 0.5 ) ;</pre>
+                    <pre class="space">background-color: rgb(110, 110, 110);</pre>
+                    <pre class="space">}</pre>
+                    <pre class="space">.colors{</pre>
+                    <pre class="space">color: #E33F00 ;</pre>
+                    <pre class="space">background-color: midnightblue;</pre>
+                    <pre class="space">}<div class="typer"></div></pre>
+        </div>        
+
+    </div>
+
+    <!--the fourth & final sheet (for now at least.) "html tables"(learn text for through up emojy)-->
+<!--
+    <div class="section" id="tables">
+
+        <h2>CSS position propperty</h2>
+        <div class="container">
+            <span class="terminal">
+                &lt;div&gt;&lt; /div&gt; <div class="typer"></div>
+            </span>
+        </div>
+
+        <p>Divs, an html tag that allows you divide your web page into moltiple blocks or sections. in between dive tags you can add all sorts of html tags such as paragraphs and headders as well as add css selectors to call on thos divs from a css style sheet or you can turn them in top shaps and obects on our page whith thos selectors ! </p>
+
+        <div class="container" >
+            <span class="terminal"> &lt;div&gt;  
+            <pre class="space" >    &lt;p&gt; im a paragraph in a div &lt; /p&gt;</pre>
+            &lt; /div&gt; <div class="typer"></div></span>
+        </div>       
+        
+    </div>
+
+    -->
+
+    <!--obvi the footer duhh put a banner and soem text with a pic of your self or a pne apple idk -->
+    <footer>
+        
+        <p>check back in for more up dates </p>
+        <a href="#header">Back to top</a>
+    </footer>
+
+
+
+
+
+
+</body>
+</html>
